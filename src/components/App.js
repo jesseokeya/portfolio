@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ReactGA from 'react-ga';
 import {
   Nav,
   About,
@@ -9,10 +10,23 @@ import {
   Awards,
   Github,
   Projects,
-  Contact
+  Contact,
+  Map
 } from './common'
 
 class App extends Component {
+  constructor() {
+    super();
+    ReactGA.initialize('UA-110478510-1');
+  }
+
+  componentWillMount() {
+    ReactGA.set({
+      page: window.location.pathname + window.location.search
+    });
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
+
   render() {
     return (<div>
       <Nav/>
@@ -26,6 +40,8 @@ class App extends Component {
         <Awards/>
         <Github/>
         <Contact/>
+        <Map/>,
+
       </div>
     </div>);
   }

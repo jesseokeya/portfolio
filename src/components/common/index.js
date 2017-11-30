@@ -8,3 +8,4 @@ export * from './Awards';
 export * from './Github';
 export * from './Projects';
 export * from './Contact';
+export * from './Map';

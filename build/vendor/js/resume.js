@@ -1,9 +1,9 @@
-GitHubActivity.feed({
-	username: "jesseokeya",
-	repository: "", // optional
-	selector: "#feed",
-	limit: 10 // optional
-});
+// GitHubActivity.feed({
+// 	username: "jesseokeya",
+// 	repository: "", // optional
+// 	selector: "#feed",
+// 	limit: 10 // optional
+// });
 
 (function($) {
   "use strict"; // Start of use strict
