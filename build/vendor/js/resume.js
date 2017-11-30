@@ -1,8 +1,8 @@
 GitHubActivity.feed({
 	username: "jesseokeya",
-	repository: "",  optional
+	repository: "",  /* optional */
 	selector: "#feed",
-	limit: 10  optional
+	limit: 10  /* optional */
 });
 
 function initMap() {

@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+   "homepage" : "http://jesseokeya.github.io/portfolio/build",
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.2",
