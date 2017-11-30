@@ -6,3 +6,5 @@ export * from './Skills';
 export * from './Interests';
 export * from './Awards';
 export * from './Github';
+export * from './Projects';
+export * from './Contact';

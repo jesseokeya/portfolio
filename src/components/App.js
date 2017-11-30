@@ -7,21 +7,25 @@ import {
   Skills,
   Interests,
   Awards,
-  Github
+  Github,
+  Projects,
+  Contact
 } from './common'
 
 class App extends Component {
   render() {
     return (<div>
       <Nav/>
-      <div className="container-fluid p-0">
+      <div className="container-fluid p-0 color-bg">
         <About/>
         <Experience/>
         <Education/>
         <Skills/>
+        <Projects/>
         <Interests/>
         <Awards/>
         <Github/>
+        <Contact/>
       </div>
     </div>);
   }

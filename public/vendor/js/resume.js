@@ -2,7 +2,7 @@ GitHubActivity.feed({
 	username: "jesseokeya",
 	repository: "", // optional
 	selector: "#feed",
-	limit: 8 // optional
+	limit: 10 // optional
 });
 
 (function($) {

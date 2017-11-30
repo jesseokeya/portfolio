@@ -11,9 +11,9 @@ class About extends Component {
           <h1 className="mb-0">Jesse {seperate}
             <span className="text-primary">Okeya</span>
           </h1>
-          <h2 class="proffession"> Software Developer </h2>
-          <div className="subheading mb-5">933 Greenbriar Avenue · Ottawa, CA K2C 0J8 · (613) 413-5540 ·
-            <a href="mailto:jesseokeya@gmail.com">Jesseokeya@gmail.com</a>
+          <h2 className="proffession"> Software Developer </h2>
+          <div className="subheading mb-5">933 Greenbriar Avenue · Ottawa, CA K2C 0J8 · <a href="tel:6134135540"> (613) 413-5540 </a> ·
+             <a href="mailto:jesseokeya@gmail.com">Jesseokeya@gmail.com</a>
           </div>
           <p className="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
           <ul className="list-inline list-social-icons mb-0">
