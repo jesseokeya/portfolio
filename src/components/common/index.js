@@ -9,3 +9,4 @@ export * from './Github';
 export * from './Projects';
 export * from './Contact';
 export * from './Map';
+export * from './Card';

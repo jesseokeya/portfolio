@@ -70,10 +70,10 @@ class Contact extends Component {
         this.setState({email: ''});
         this.setState({message: ''});
       }, 4000);
-      const url = `${window.location.href}contact`;
+      const url = '/contact';
       $.post(url, form).done((data) => {
         console.log(data);
-      });
+      })
     } else {
       $('.form-control').removeClass('is-valid');
       for (let i in $('input')) {
