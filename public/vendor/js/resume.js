@@ -1,9 +1,9 @@
-GitHubActivity.feed({
-	username: "jesseokeya",
-	repository: "",  /* optional */
-	selector: "#feed",
-	limit: 10  /* optional */
-});
+// GitHubActivity.feed({
+// 	username: "jesseokeya",
+// 	repository: "",  /* optional */
+// 	selector: "#feed",
+// 	limit: 7  /* optional */
+// });
 
 function initMap() {
   const pos = {
