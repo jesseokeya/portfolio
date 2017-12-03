@@ -1,47 +1,60 @@
 const ProjectsData = [
   {
     title: 'Airnd',
-    heading: 'jklk;',
+    heading: '',
     dataEdited: '',
     image: './img/airnd.png',
-    description: ''
-  },
-  {
+    description: '',
+    url: 'https://airndapp.com'
+  }, {
     title: 'forbes400 Api',
-    heading: 'jklk;',
+    heading: '',
     dataEdited: '',
-    image: 'https://forbes400.herokuapp.com/screenshot1.png',
-    description: ''
+    image: './img/forbes400.png',
+    description: '',
+    url: 'https://forbes400.herokuapp.com'
   }, {
     title: 'DataPlayGround',
-    heading: '[p]',
+    heading: '',
     dataEdited: '',
     image: './img/data-play.png',
-    description: ''
+    description: '',
+    url: 'https://dataplayground-dev.herokuapp.com'
   }, {
     title: 'SimpleChat',
-    heading: 'jklo',
+    heading: '',
     dataEdited: '',
     image: './img/simple-chat.png',
-    description: ''
+    description: '',
+    url: 'https://simple-chat-dev.herokuapp.com'
   }, {
     title: 'Beatstop',
-    heading: 'jklnuj',
+    heading: '',
     dataEdited: '',
     image: './img/beatstop.png',
-    description: ''
+    description: '',
+    url: 'https://beatstop-dev.herokuapp.com'
   }, {
-    title: 'myBlog',
-    heading: 'jklnuj',
+    title: 'codefront',
+    heading: '',
     dataEdited: '',
-    image: 'https://www.w3schools.com/css/rock600x400.jpg',
-    description: ''
+    image: './img/codefront.png',
+    description: '',
+    url: 'https://code-front.herokuapp.com'
   }, {
     title: 'DataPlayGround Python',
-    heading: 'jklnuj',
+    heading: '',
     dataEdited: '',
     image: 'https://dataplayground-dev.herokuapp.com/img/terminal.png',
-    description: 'vecw'
+    description: '',
+    url: 'https://github.com/Lagbana/DataPlayground/tree/jesse'
+  }, {
+    title: 'deCode (Qlik Team)',
+    heading: '',
+    dataEdited: '',
+    image: './img/decode.png',
+    description: '',
+    url: 'https://qlik-decode-un.herokuapp.com'
   }
 ];
 

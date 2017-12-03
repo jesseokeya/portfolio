@@ -44,7 +44,7 @@ class Nav extends Component {
           </li>
           <div className="hr-line"></div>
           <li className="nav-item">
-            <a onClick={this.closeNav} className="nav-link js-scroll-trigger" href="https://ghme.herokuapp.com">Blog</a>
+            <a onClick={this.closeNav} className="nav-link js-scroll-trigger" href="https://code-front.herokuapp.com">Blog</a>
           </li>
           <li className="nav-item">
             <a onClick={this.closeNav} className="nav-link js-scroll-trigger" href="#github">Github</a>

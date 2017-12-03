@@ -70,9 +70,14 @@ class Contact extends Component {
         this.setState({email: ''});
         this.setState({message: ''});
       }, 4000);
-      const url = '/contact';
-      $.post(url, form).done((data) => {
-        console.log(data);
+      const url = 'https://code-front.herokuapp.com/api/contact';
+      const editForm = {
+        name: `${form.firstName} ${form.lastName}`,
+        email: form.email,
+        message: form.message
+      }
+      $.post(url, editForm).done((data) => {
+        console.log('Form Submitted');
       })
     } else {
       $('.form-control').removeClass('is-valid');
@@ -114,7 +119,7 @@ class Contact extends Component {
                   <input id="firstName" onChange={this.updateState} type="text" className="form-control" placeholder="First name"/>
                 </div>
                 <div className="col">
-                  <input id="lastName" onChange={this.updateState} type="text" className="form-control" placeholder="Last name (optional)"/>
+                  <input id="lastName" onChange={this.updateState} type="text" className="form-control" placeholder="Last name"/>
                 </div>
               </div>
             </div>

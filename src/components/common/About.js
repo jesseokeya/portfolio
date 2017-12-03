@@ -39,7 +39,7 @@ class About extends Component {
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="/#blog">
+              <a href="https://code-front.herokuapp.com">
                 <span className="fa-stack fa-lg">
                   <i className="fa fa-circle fa-stack-2x"></i>
                   <i className="fa fa-rss fa-stack-1x fa-inverse"></i>

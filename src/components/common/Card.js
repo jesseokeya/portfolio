@@ -10,33 +10,24 @@ class Card extends Component {
 
   render() {
     const data = this.state.data
-    return (<div className="col-sm-6 col-md-4 col-lg-4" >
-      <div className="card shadow">
-        <img className="card-img-top img-fluid" src={data.image} alt="Project Img"/>
-        <div className="card-block">
-          <br/>
-          <div className="contain-card">
-            <h3 className="card-title">{data.title}</h3>
-            <p className="card-text">
-              <b> {data.heading} </b>
-            </p>
-            <p className="card-text">{data.description}</p>
+    return (<div className="col-sm-6 col-md-4 col-lg-3">
+      <a href={data.url}>
+        <div className="card">
+          <img className="card-img-top" src={data.image} alt="cover"/>
+          <div className="card-block">
+            <div className="card-body bg-primary text-white">
+              <h4 className="card-title text-white">{data.title}</h4>
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p className="card-text">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
           </div>
         </div>
-        <br/>
-        <blockquote className="blockquote contain-card">
-          click to view project
-        </blockquote>
-        <div className="card-footer text-center">
-          <small className="text-muted">
-            Date Edited: {data.dateEdited}
-          </small>
-        </div>
-      </div>
+      </a>
     </div>);
   }
 }
-
 export {
   Card
 }

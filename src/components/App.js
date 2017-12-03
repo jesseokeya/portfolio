@@ -18,6 +18,9 @@ class App extends Component {
   constructor() {
     super();
     ReactGA.initialize('UA-110478510-1');
+    this.state = {
+      showMap: true
+    }
   }
 
   componentWillMount() {
@@ -39,9 +42,11 @@ class App extends Component {
         <Interests/>
         <Awards/>
         <Github/>
-        <Contact/>
-        <Map/>,
-
+        <Contact/> {
+          (this.state.showMap)
+            ? <Map/>
+            : ''
+        }
       </div>
     </div>);
   }
