@@ -31,6 +31,10 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.card-img-top {
+  width: 100%;
+}
+
 .contain-card {
   margin-left: 10px;
   margin-right: 10px;
@@ -38,7 +42,7 @@ h2 {
 
 .card {
   margin-top: 20px;
-  max-height: 50vh;
+  max-height: 51vh;
   overflow-y: scroll;
 }
 

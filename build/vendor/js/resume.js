@@ -2,7 +2,7 @@ GitHubActivity.feed({
 	username: "jesseokeya",
 	repository: "",  /* optional */
 	selector: "#feed",
-	limit: 7  /* optional */
+	limit: 6  /* optional */
 });
 
 function initMap() {
