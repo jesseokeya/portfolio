@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ReactGA from 'react-ga';
 import $ from 'jquery';
 
 class Contact extends Component {
@@ -61,6 +62,7 @@ class Contact extends Component {
       $('#lastName').val('');
       $('#email').val('');
       $('#message').val('');
+      ReactGA.ga('send', 'pageview', '/formValid');
       const message = this.successMessage('Success!!', 'Form Submitted');
       $('#alertMessage').append(message);
       setTimeout(() => {
@@ -78,6 +80,7 @@ class Contact extends Component {
       }
       $.post(url, editForm).done((data) => {
         console.log('Form Submitted');
+        ReactGA.ga('send', 'pageview', '/formSubmit');
       })
     } else {
       $('.form-control').removeClass('is-valid');
@@ -99,6 +102,7 @@ class Contact extends Component {
         $(`#${textarea.id}`).addClass('is-valid');
         $(`#${textarea.id}`).removeClass('is-invalid');
       }
+      ReactGA.ga('send', 'pageview', '/formInValid');
       const message = this.errorMessage('Error!', 'Empty Form Field(s)');
       $('#alertMessage').append(message);
       setTimeout(() => {

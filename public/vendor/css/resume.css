@@ -35,9 +35,21 @@ h2 {
   width: 100%;
 }
 
+.map-link {
+  cursor: pointer;
+}
+
+.map-link:hover {
+  text-decoration: underline;
+}
+
 .contain-card {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.link {
+  color: #3498DB;
 }
 
 .card {

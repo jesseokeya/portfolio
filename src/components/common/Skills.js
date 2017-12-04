@@ -9,10 +9,19 @@ class Skills extends Component {
         <div className="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul className="list-inline list-icons">
           <li className="list-inline-item">
-            <i className="devicons devicons-html5"></i>
+            <i className="devicons devicons-terminal"></i>
           </li>
           <li className="list-inline-item">
-            <i className="devicons devicons-css3"></i>
+            <i className="devicons devicons-linux"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-go"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-java"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-python"></i>
           </li>
           <li className="list-inline-item">
             <i className="devicons devicons-javascript"></i>
@@ -21,25 +30,43 @@ class Skills extends Component {
             <i className="devicons devicons-jquery"></i>
           </li>
           <li className="list-inline-item">
-            <i className="devicons devicons-sass"></i>
+            <i className="devicons devicons-nodejs_small"></i>
           </li>
           <li className="list-inline-item">
-            <i className="devicons devicons-less"></i>
+            <i className="devicons devicons-angular"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-react"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-html5"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-css3"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-git"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-mongodb"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-mysql"></i>
           </li>
           <li className="list-inline-item">
             <i className="devicons devicons-bootstrap"></i>
-          </li>
-          <li className="list-inline-item">
-            <i className="devicons devicons-wordpress"></i>
-          </li>
-          <li className="list-inline-item">
-            <i className="devicons devicons-grunt"></i>
           </li>
           <li className="list-inline-item">
             <i className="devicons devicons-gulp"></i>
           </li>
           <li className="list-inline-item">
             <i className="devicons devicons-npm"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-docker"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-heroku"></i>
           </li>
         </ul>
 
@@ -57,6 +84,22 @@ class Skills extends Component {
           <li>
             <i className="fa-li fa fa-check"></i>
             Agile Development &amp; Scrum</li>
+          <li>
+            <i className="fa-li fa fa-check"></i>
+            Object Oriented Design
+          </li>
+          <li>
+            <i className="fa-li fa fa-check"></i>
+            Algorithms &amp; Data Structures
+          </li>
+          <li>
+            <i className="fa-li fa fa-check"></i>
+            Build &amp; Deployment
+          </li>
+          <li>
+            <i className="fa-li fa fa-check"></i>
+            Databases &amp; Sourcecontrol(Git)
+          </li>
         </ul>
       </div>
     </section>);

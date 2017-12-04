@@ -1,10 +1,23 @@
 import React, {Component} from 'react';
+import $ from 'jquery';
 
 class Awards extends Component {
   render() {
     return (<section className="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
       <div className="my-auto">
-        <h2 className="mb-5">Awards &amp; Certifications</h2>
+        <h2 className="mb-5">
+          {
+            ($(window).width() <= 375)
+              ? (<span>
+                Awards &
+                <br/>
+                <br/>
+                Certifications
+              </span>)
+              : `Awards & Certifications`
+          }
+
+        </h2>
         <ul className="fa-ul mb-0">
           <li>
             <i className="fa-li fa fa-trophy text-warning"></i>
@@ -16,27 +29,11 @@ class Awards extends Component {
           </li>
           <li>
             <i className="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+            Go Programming Langunage - Udemy Certification
           </li>
           <li>
             <i className="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-          </li>
-          <li>
-            <i className="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-          </li>
-          <li>
-            <i className="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i className="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005
+            <a href="https://github.com/orgs/QlikHackathon/people">Decode Ottawa - Team Qlik - Hackathon 2017</a>
           </li>
         </ul>
       </div>

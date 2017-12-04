@@ -8,24 +8,26 @@ class Education extends Component {
 
         <div className="resume-item d-flex flex-column flex-md-row mb-5">
           <div className="resume-content mr-auto">
-            <h3 className="mb-0">University of Colorado Boulder</h3>
+            <h3 className="mb-0">Carleton University</h3>
             <div className="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
+            <div>Computer Science - Software Development Track</div>
             <p>GPA: 3.23</p>
           </div>
           <div className="resume-date text-md-right">
-            <span className="text-primary">August 2006 - May 2010</span>
+            <span className="text-primary">January 2015 - May 2019</span>
           </div>
         </div>
 
         <div className="resume-item d-flex flex-column flex-md-row">
           <div className="resume-content mr-auto">
-            <h3 className="mb-0">James Buchanan High School</h3>
-            <div className="subheading mb-3">Technology Magnet Program</div>
+            <h3 className="mb-0">GreatLakes College Of Toronto</h3>
+            <div className="subheading mb-3">
+              Computer Technology Program
+            </div>
             <p>GPA: 3.56</p>
           </div>
           <div className="resume-date text-md-right">
-            <span className="text-primary">August 2002 - May 2006</span>
+            <span className="text-primary">January 2014 - January 2015</span>
           </div>
         </div>
 

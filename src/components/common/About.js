@@ -1,6 +1,14 @@
 import React, {Component} from 'react';
+import ReactGA from 'react-ga';
+import $ from 'jquery';
 
 class About extends Component {
+
+  showMap() {
+    ReactGA.ga('send', 'pageview', '/viewedMap');
+    window.location.href = '/#map';
+  }
+
   render() {
     const seperate = (window.innerWidth >= 376)
       ? ''
@@ -12,14 +20,23 @@ class About extends Component {
             <span className="text-primary">Okeya</span>
           </h1>
           <h2 className="proffession">
-            Software Developer
+            {
+              ($(window).width() <= 375)
+                ? (<span>
+                  Software
+                  <br/>
+                  <br/>
+                  Developer
+                </span>)
+                : 'Software Developer'
+            }
           </h2>
           <div className="subheading mb-5">
-            <a href="/#map">
+            <a className="map-link" onClick={this.showMap}>
               933 Greenbriar Avenue
             </a>
             <span className="space-out">·</span>
-            <a href="/#map">
+            <a className="map-link" onClick={this.showMap}>
               Ottawa, CA K2C 0J8</a>
             <span className="space-out">·</span>
             <a href="tel:6134135540">
@@ -28,7 +45,10 @@ class About extends Component {
             <span className="space-out">·</span>
             <a href="mailto:jesseokeya@gmail.com">Jesseokeya@gmail.com</a>
           </div>
-          <p className="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+          <p className="mb-5">I am passionate software developer always learning something new and willing to collaborate. Trying my best to leave an impact on the world. Feel free to
+            <a className="link" href="/#contact"> contact me </a>
+            regarding collaborations or ask me any question(s). Check My
+            <a className="link" href="https://code-front.herokuapp.com"> Blog </a>Out</p>
           <ul className="list-inline list-social-icons mb-0">
             <li className="list-inline-item">
               <a href="/">
