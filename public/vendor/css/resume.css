@@ -55,7 +55,6 @@ h2 {
 .card {
   margin-top: 20px;
   max-height: 51vh;
-  overflow-y: scroll;
 }
 
 .map-main {

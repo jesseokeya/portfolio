@@ -48,6 +48,12 @@ const ProjectsData = [
     image: './img/decode.png',
     description: 'Qlik deCODE Hackathon 2017 - Visualize the commitments that various countries made in accordance to the United Nations SDG 14 #saveourocean movement.',
     url: 'https://qlik-decode-un.herokuapp.com'
+  }, {
+    title: 'Ottawa Cameras',
+    Edited: 'December 2017',
+    image: './img/ottawa-cameras.png',
+    description: 'View and Explore all traffic light cameras in the city of ottawa with google maps and an effective searching algorithm. Note camera images refresh after every 60 seconds. if an image is requested more than once within the 60 seconds no image is displayed',
+    url: 'https://ottawa-cameras.herokuapp.com'
   }
 ];
 
