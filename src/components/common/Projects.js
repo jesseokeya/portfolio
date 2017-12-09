@@ -6,7 +6,7 @@ class Projects extends Component {
   constructor() {
     super();
     this.state = {
-      projectDescription: true
+      projectDescription: false
     }
     this.enableScroll = this.enableScroll.bind(this);
   }
