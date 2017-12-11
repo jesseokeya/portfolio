@@ -11,7 +11,14 @@ class Nav extends Component {
   render() {
     return (<nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a className="navbar-brand js-scroll-trigger" href="#page-top">
-        <span className="d-block d-lg-none">Portfolio</span>
+        <span className="d-block d-lg-none">
+          <img src="./favicon.ico" className="rounded float-left" alt="avatar" width="55px" height="55px"/>
+          <span className="portfolio-heading">
+            <b>
+              Portfolio
+            </b>
+          </span>
+        </span>
         <span className="d-none d-lg-block">
           <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://avatars0.githubusercontent.com/u/12955039?s=460&v=4" alt="avatars"/>
         </span>

@@ -4,6 +4,7 @@ import $ from 'jquery';
 class Awards extends Component {
   render() {
     return (<section className="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+      <br/>
       <div className="my-auto">
         <h2 className="mb-5">
           {

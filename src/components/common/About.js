@@ -16,18 +16,19 @@ class About extends Component {
     return (<section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
       <div className="container-fluid">
         <div className="my-auto">
+          <br/>
           <h1 className="mb-0">Jesse {seperate}
             <span className="text-primary">Okeya</span>
           </h1>
           <h2 className="proffession">
             {
               ($(window).width() <= 375)
-                ? (<span>
+                ? (<div>
                   Software
-                  <br/>
-                  <br/>
-                  Developer
-                </span>)
+                  <div className="developer">
+                    Developer
+                  </div>
+                </div>)
                 : 'Software Developer'
             }
           </h2>
@@ -46,9 +47,13 @@ class About extends Component {
             <a href="mailto:jesseokeya@gmail.com">Jesseokeya@gmail.com</a>
           </div>
           <p className="mb-5">I am passionate software developer always learning something new and willing to collaborate. Trying my best to leave an impact on the world. Feel free to
-            <a className="link" href="/#contact"> contact me </a>
+            <a className="link" href="/#contact">
+              contact me
+            </a>
             regarding collaborations or ask me any question(s). Check My
-            <a className="link" href="https://code-front.herokuapp.com"> Blog </a>Out</p>
+            <a className="link" href="https://code-front.herokuapp.com">
+              Blog
+            </a>Out</p>
           <ul className="list-inline list-social-icons mb-0">
             <li className="list-inline-item">
               <a href="/">

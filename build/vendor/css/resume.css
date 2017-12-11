@@ -27,6 +27,26 @@ h2 {
   font-size: 3.5rem;
 }
 
+.portfolio-heading{
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.rounded {
+  display: inline-block;
+  margin-top: -14px;
+}
+
+.developer {
+  margin-top: 19px;
+}
+
+.img-thumbnail {
+  margin-top: 20px;
+  border: 2px solid #17202A;
+}
+
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -50,6 +70,8 @@ h2 {
 
 .link {
   color: #3498DB;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .card {

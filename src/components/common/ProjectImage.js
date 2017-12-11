@@ -14,10 +14,7 @@ class ProjectImage extends Component {
     return (<div className="col-sm-6 col-md-4 col-lg-3">
       <div data-toggle="popover" data-trigger="hover" title={data.title} data-content={data.description}>
         <ReactGA.OutboundLink eventLabel={data.title} to={data.url} target="_blank">
-          <img style={{
-              marginTop: '20px',
-              border: '2px solid #17202A'
-            }} className="img-thumbnail rounded shadow" src={data.image} alt={data.title}/>
+          <img className="img-thumbnail rounded shadow" src={data.image} alt={data.title}/>
         </ReactGA.OutboundLink>
       </div>
     </div>);
