@@ -27,8 +27,16 @@ h2 {
   font-size: 3.5rem;
 }
 
-.portfolio-heading{
+.portfolio-heading :hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.portfolio-heading {
   display: inline-block;
+  color: white;
+  text-decoration: none;
   margin-left: 10px;
   margin-top: 10px;
 }
