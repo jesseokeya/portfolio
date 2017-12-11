@@ -1,8 +1,12 @@
+$(function() {
+  $('[data-toggle="popover"]').popover()
+})
+
 GitHubActivity.feed({
-	username: "jesseokeya",
-	repository: "",  /* optional */
-	selector: "#feed",
-	limit: 6  /* optional */
+  username: "jesseokeya", repository: "",
+  /* optional */
+  selector: "#feed",
+  limit: 6/* optional */
 });
 
 function initMap() {
