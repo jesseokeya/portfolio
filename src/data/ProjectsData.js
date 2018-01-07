@@ -54,6 +54,12 @@ const ProjectsData = [
     image: './img/ottawa-cameras.png',
     description: 'View and Explore all traffic light cameras in the city of ottawa with google maps and an effective searching algorithm. Note camera images refresh after every 60 seconds. if an image is requested more than once within the 60 seconds no image is displayed',
     url: 'https://ottawa-cameras.herokuapp.com'
+  }, {
+    title: 'notify',
+    Edited: 'January 2018',
+    image: './img/notify.png',
+    description: 'notify is a light notification service which integrates twilio, sendgrid, and sendwithus apis to send emails, text messages, voice notes and even call users/customers of your application or microservice',
+    url: 'https://notify-dev.herokuapp.com/api/docs/'
   }
 ];
 
