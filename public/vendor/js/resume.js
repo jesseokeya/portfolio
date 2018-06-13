@@ -6,7 +6,7 @@ $(document).ready(() => {
 	window.location.href = '/#about'
 
 	GitHubActivity.feed({
-	  username: "jesseokeya", repository: "",
+    username: "jesseokeya",
 	  /* optional */
 	  selector: "#feed",
 	  limit: 6/* optional */
