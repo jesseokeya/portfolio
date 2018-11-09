@@ -69,6 +69,21 @@ class Skills extends Component {
           <li className="list-inline-item">
             <i className="devicons devicons-heroku"></i>
           </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-google-cloud-platform"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-aws"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-jira"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-ubuntu"></i>
+          </li>
+          <li className="list-inline-item">
+            <i className="devicons devicons-windows"></i>
+          </li>
         </ul>
 
         <div className="subheading mb-3">Workflow</div>

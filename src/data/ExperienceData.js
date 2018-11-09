@@ -14,8 +14,14 @@ const ExperienceData = [
   {
     jobTitle: 'Software Developer Intern',
     company: 'Qlik',
-    jobDesc: 'Pending...',
+    jobDesc: 'Built scalable applications using technologies like docker and kubernetes used to manage various microservices (mostly nodejs or go) in a cluster. These services have logging, metrics, proper, error handling, continious integration and delivery',
     duration: 'May 2018 - September 2018'
+  },
+  {
+    jobTitle: 'Software Developer',
+    company: 'HealthBrain',
+    jobDesc: 'Pending...',
+    duration: 'September 2018 - Present'
   }
 ];
 
