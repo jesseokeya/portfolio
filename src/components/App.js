@@ -10,8 +10,7 @@ import {
   Awards,
   Github,
   Projects,
-  Contact,
-  Map
+  Contact
 } from './common'
 
 class App extends Component {
@@ -19,7 +18,7 @@ class App extends Component {
     super();
     ReactGA.initialize('UA-110478510-1');
     this.state = {
-      showMap: true
+      showMap: false
     }
   }
 
@@ -42,11 +41,7 @@ class App extends Component {
         <Interests/>
         <Awards/>
         <Github/>
-        <Contact/> {
-          (this.state.showMap)
-            ? <Map/>
-            : ''
-        }
+        <Contact/>
       </div>
     </div>);
   }

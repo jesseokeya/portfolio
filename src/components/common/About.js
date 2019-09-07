@@ -13,84 +13,83 @@ class About extends Component {
     const seperate = (window.innerWidth >= 376)
       ? ''
       : <br/>;
-    return (<section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-      <div className="container-fluid">
-        <div className="my-auto">
-          <br/>
-          <h1 className="mb-0">Jesse {seperate}
-            <span className="text-primary">Okeya</span>
-          </h1>
-          <h2 className="proffession">
-            {
-              ($(window).width() <= 375)
-                ? (<div>
+    return (
+      <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div className="container-fluid">
+          <div className="my-auto">
+            <br />
+            <h1 className="mb-0">
+              Jesse {seperate}
+              <span className="text-primary">Okeya</span>
+            </h1>
+            <h2 className="proffession">
+              {$(window).width() <= 375 ? (
+                <div>
                   Software
-                  <div className="developer">
-                    Developer
-                  </div>
-                </div>)
-                : 'Software Developer'
-            }
-          </h2>
-          <div className="subheading mb-5">
-            <a className="map-link" onClick={this.showMap}>
-              933 Greenbriar Avenue
-            </a>
-            <span className="space-out">·</span>
-            <a className="map-link" onClick={this.showMap}>
-              Ottawa, CA K2C 0J8</a>
-            <span className="space-out">·</span>
-            <a href="tel:6134135540">
-              (613) 413-5540
-            </a>
-            <span className="space-out">·</span>
-            <a href="mailto:jesseokeya@gmail.com">Jesseokeya@gmail.com</a>
+                  <div className="developer">Developer</div>
+                </div>
+              ) : (
+                "Software Developer"
+              )}
+            </h2>
+            <div className="subheading mb-5">
+              <a className="map-link" onClick={this.showMap}>
+                933 Greenbriar Avenue
+              </a>
+              <span className="space-out">·</span>
+              <a className="map-link" onClick={this.showMap}>
+                Ottawa, CA K2C 0J8
+              </a>
+              <span className="space-out">·</span>
+              <a href="tel:6134135540">(613) 413-5540</a>
+              <span className="space-out">·</span>
+              <a href="mailto:jesseokeya@gmail.com">Jesseokeya@gmail.com</a>
+            </div>
+            <p className="mb-5">
+              Passionate Software Engineer with years of verifiable success in
+              delivering appropriate technology solutions for web and mobile
+              products. Comprehensive knowledge of platform development,
+              enterprise architecture, agile methodologies, cloud services, and
+              web-based applications.
+            </p>
+            <ul className="list-inline list-social-icons mb-0">
+              <li className="list-inline-item">
+                <a href="/">
+                  <span className="fa-stack fa-lg">
+                    <i className="fa fa-circle fa-stack-2x"></i>
+                    <i className="fa fa-home fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="https://medium.com/@jesseokeya">
+                  <span className="fa-stack fa-lg">
+                    <i className="fa fa-circle fa-stack-2x"></i>
+                    <i className="fa fa-rss fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="https://www.linkedin.com/in/jesse-okeya-45a38510a/">
+                  <span className="fa-stack fa-lg">
+                    <i className="fa fa-circle fa-stack-2x"></i>
+                    <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="https://github.com/jesseokeya">
+                  <span className="fa-stack fa-lg">
+                    <i className="fa fa-circle fa-stack-2x"></i>
+                    <i className="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
           </div>
-          <p className="mb-5">I am passionate software developer always learning something new and willing to collaborate. Trying my best to leave an impact on the world. Feel free to
-            <a className="link" href="/#contact">
-              contact me
-            </a>
-            regarding collaborations or ask me any question(s). Check My
-            <a className="link" href="https://code-front.herokuapp.com">
-              Blog
-            </a>Out</p>
-          <ul className="list-inline list-social-icons mb-0">
-            <li className="list-inline-item">
-              <a href="/">
-                <span className="fa-stack fa-lg">
-                  <i className="fa fa-circle fa-stack-2x"></i>
-                  <i className="fa fa-home fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="https://code-front.herokuapp.com">
-                <span className="fa-stack fa-lg">
-                  <i className="fa fa-circle fa-stack-2x"></i>
-                  <i className="fa fa-rss fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="https://www.linkedin.com/in/jesse-okeya-45a38510a/">
-                <span className="fa-stack fa-lg">
-                  <i className="fa fa-circle fa-stack-2x"></i>
-                  <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="https://github.com/jesseokeya">
-                <span className="fa-stack fa-lg">
-                  <i className="fa fa-circle fa-stack-2x"></i>
-                  <i className="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
         </div>
-      </div>
-    </section>);
+      </section>
+    );
   }
 }
 
