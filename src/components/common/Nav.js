@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
-import $ from 'jquery';
+import React, { Component } from "react";
+import $ from "jquery";
 
 class Nav extends Component {
   closeNav() {
     if ($(window).width() <= 834) {
-      $('.navbar-toggler').click();
+      $(".navbar-toggler").click();
     }
   }
 
@@ -135,6 +135,16 @@ class Nav extends Component {
               <a
                 onClick={this.closeNav}
                 className="nav-link js-scroll-trigger"
+                href="/pdf/resume.pdf"
+                target="_blank"
+              >
+                Resume
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                onClick={this.closeNav}
+                className="nav-link js-scroll-trigger"
                 href="#contact"
               >
                 Contact
@@ -144,10 +154,7 @@ class Nav extends Component {
         </div>
       </nav>
     );
-
   }
 }
 
-export {
-  Nav
-}
+export { Nav };
