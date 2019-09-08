@@ -1,18 +1,15 @@
-import React, {Component} from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
+import React, { Component } from "react";
+import ReactGA from "react-ga";
+import $ from "jquery";
 
 class About extends Component {
-
   showMap() {
-    ReactGA.ga('send', 'pageview', '/viewedMap');
-    window.location.href = '/#map';
+    ReactGA.ga("send", "pageview", "/viewedMap");
+    window.location.href = "/#map";
   }
 
   render() {
-    const seperate = (window.innerWidth >= 376)
-      ? ''
-      : <br/>;
+    const seperate = window.innerWidth >= 376 ? "" : <br />;
     return (
       <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div className="container-fluid">
@@ -62,7 +59,7 @@ class About extends Component {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://medium.com/@jesseokeya">
+                <a href="https://medium.com/@jesseokeya" target="_blank">
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -70,7 +67,10 @@ class About extends Component {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://www.linkedin.com/in/jesse-okeya-45a38510a/">
+                <a
+                  href="https://www.linkedin.com/in/jesse-okeya-45a38510a/"
+                  target="_blank"
+                >
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -78,21 +78,21 @@ class About extends Component {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://github.com/jesseokeya">
+                <a href="https://github.com/jesseokeya" target="_blank">
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-github fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
-              <li className="list-inline-item">
+              {/* <li className="list-inline-item">
                 <a href="/pdf/resume.pdf" target="_blank">
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-folder fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -101,6 +101,4 @@ class About extends Component {
   }
 }
 
-export {
-  About
-}
+export { About };
