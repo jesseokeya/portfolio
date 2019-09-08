@@ -59,7 +59,11 @@ class About extends Component {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://medium.com/@jesseokeya" target="_blank">
+                <a
+                  href="https://medium.com/@jesseokeya"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -70,6 +74,7 @@ class About extends Component {
                 <a
                   href="https://www.linkedin.com/in/jesse-okeya-45a38510a/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
@@ -78,7 +83,11 @@ class About extends Component {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://github.com/jesseokeya" target="_blank">
+                <a
+                  href="https://github.com/jesseokeya"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-github fa-stack-1x fa-inverse"></i>
