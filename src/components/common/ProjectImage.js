@@ -13,7 +13,7 @@ class ProjectImage extends Component {
     const isMobile = window.innerWidth <= 800
     const data = this.state.data
     const defaultImageStyles = { 
-      height: !isMobile ? '50vh' : '80vh', 
+      height: !isMobile ? '55vh' : '80vh', 
       width: '100%',
       textAlign: 'center'
     }

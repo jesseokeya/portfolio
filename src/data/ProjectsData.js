@@ -59,8 +59,22 @@ const ProjectsData = [
     Edited: "January 2018",
     image: "./img/notify.png",
     description:
-      "notify is a light notification service which integrates twilio, sendgrid, and sendwithus apis to send emails, text messages, voice notes and even call users/customers of your application or microservice",
+      "Notify is a light notification service which integrates twilio, sendgrid, and sendwithus apis to send emails, text messages, voice notes and even call users/customers of your application or microservice",
     url: "https://notify-dev.herokuapp.com/api/docs/"
+  },
+  {
+    title: "Infermedica",
+    Edited: "January 2019",
+    image: "./img/infermedica.png",
+    description: "Node interface to the Infermedica Rest Api.",
+    url: "https://www.npmjs.com/package/infermedica"
+  },
+  {
+    title: "Mongo Migrant",
+    Edited: "April 2019",
+    image: "./img/mongo-migrant.png",
+    description: "Helps perform mongoDb migrations easily",
+    url: "https://www.npmjs.com/package/mongo-migrant"
   }
 ];
 
