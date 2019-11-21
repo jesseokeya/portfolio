@@ -54,7 +54,7 @@ const ExperienceData = [
       "Developed and deployed products in various cloud environments",
       "Worked in an agile fashion",
       "Video conferencing to work efficiently with a globally dispersed team",
-      "Improved my knowledge of python leveraging tools like Selenium Headless WebDriver and ChromeDriver for automating, testing and scraping web applications",
+      "Improved my knowledge of python leveraging tools like Selenium Headless WebDriver for automating, testing and scraping web applications",
       "Worked in cross functional teams that include professional services and technical operations as part of end to end product delivery and troubleshooting"
     ],
     duration: "January 2020 - August 2020"
