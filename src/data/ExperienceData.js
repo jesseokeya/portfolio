@@ -41,24 +41,24 @@ const ExperienceData = [
     ],
     duration: "September 2018 - October 2019"
   },
-  {
-    jobTitle: "Software Developer (In Progress)",
-    company: "Irdeto",
-    jobDesc: [
-      "Tested and verified Irdeto's solutions to ensure high quality standards in all Irdeto products",
-      "Developed continuous integration framework for testing software protection solutions",
-      "Used leading edge systems – including mobile/portable devices",
-      "Ran automated tests, collected and interpreted test results and modifying test framework code as required",
-      "Inter-working with various component and application-level design teams",
-      "Worked with a tight-knit team in designing, implementing and maintaining new features in the Web Video, Live Sporting Event, or P2P services product line",
-      "Developed and deployed products in various cloud environments",
-      "Worked in an agile fashion",
-      "Video conferencing to work efficiently with a globally dispersed team",
-      "Improved my knowledge of python leveraging tools like Selenium Headless WebDriver for automating, testing and scraping web applications",
-      "Worked in cross functional teams that include professional services and technical operations as part of end to end product delivery and troubleshooting"
-    ],
-    duration: "January 2020 - August 2020"
-  }
+  // {
+  //   jobTitle: "Software Developer (In Progress)",
+  //   company: "Irdeto",
+  //   jobDesc: [
+  //     "Tested and verified Irdeto's solutions to ensure high quality standards in all Irdeto products",
+  //     "Developed continuous integration framework for testing software protection solutions",
+  //     "Used leading edge systems – including mobile/portable devices",
+  //     "Ran automated tests, collected and interpreted test results and modifying test framework code as required",
+  //     "Inter-working with various component and application-level design teams",
+  //     "Worked with a tight-knit team in designing, implementing and maintaining new features in the Web Video, Live Sporting Event, or P2P services product line",
+  //     "Developed and deployed products in various cloud environments",
+  //     "Worked in an agile fashion",
+  //     "Video conferencing to work efficiently with a globally dispersed team",
+  //     "Improved my knowledge of python leveraging tools like Selenium Headless WebDriver for automating, testing and scraping web applications",
+  //     "Worked in cross functional teams that include professional services and technical operations as part of end to end product delivery and troubleshooting"
+  //   ],
+  //   duration: "January 2020 - August 2020"
+  // }
 ];
 
 export { ExperienceData };
