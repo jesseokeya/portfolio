@@ -24,19 +24,10 @@ class App extends Component {
 
   componentWillMount() {
     this.httpsRedirect();
-    this.redirectToWebsite()
     ReactGA.set({
       page: window.location.pathname + window.location.search
     });
     ReactGA.pageview(window.location.pathname + window.location.search);
-  }
-
-  redirectToWebsite() {
-    const location = window.location;
-    const isDevelopment = location.hostname === "localhost";
-    if (!isDevelopment && location.origin !== 'https://www.jesseokeya.com') {
-      location.href = "https://www.jesseokeya.com";
-    }
   }
 
   httpsRedirect() {
