@@ -34,7 +34,7 @@ class App extends Component {
     const location = window.location
     const isDevelopment = location.hostname === 'localhost'
     if (location.protocol !== "https:" && !isDevelopment) {
-      location.href = 'https://www.jesseokeya.com'
+      location.href = 'https://www.jesseokeya.ca'
     }
   }
 
