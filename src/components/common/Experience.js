@@ -7,7 +7,7 @@ class Experience extends Component {
       return (
         <li
           key={index}
-          class="list-group-item"
+          className="list-group-item"
           style={{ backgroundColor: "#F8F9F9" }}
         >
           {description}
@@ -34,7 +34,7 @@ class Experience extends Component {
               <div className="resume-content mr-auto">
                 <h3 className="mb-0">{data.jobTitle}</h3>
                 <div className="subheading mb-3">{data.company}</div>
-                <ul class="list-group">
+                <ul className="list-group">
                   {this.displayDescriptions(data.jobDesc)}
                 </ul>
               </div>

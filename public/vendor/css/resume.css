@@ -237,3 +237,12 @@ a {
 a:hover, a:focus, a:active {
   color: #ABB2B9;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.highlight-border {
+  border: 1px solid #154360 !important;
+  border-radius: 5px;
+}
