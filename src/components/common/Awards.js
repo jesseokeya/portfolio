@@ -21,7 +21,7 @@ class Awards extends Component {
             src={award.src}
             className="img-fluid cursor-pointer"
             alt={award.alt}
-            onClick={_ => this.setCurrentAward(award)}
+            onClick={(_) => this.setCurrentAward(award)}
             data-toggle="modal"
             data-target="#awardModal"
           />
