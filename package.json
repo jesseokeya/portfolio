@@ -3,18 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "google-map-react": "^0.25.0",
-    "jquery": "^3.3.1",
-    "morgan": "^1.9.1",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1",
-    "react-ga": "^2.5.3"
+    "express": "^4.17.1",
+    "google-map-react": "^2.1.9",
+    "jquery": "^3.5.1",
+    "morgan": "^1.10.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-ga": "^2.7.0"
   },
   "devDependencies": {
-    "react-scripts": "1.0.17"
+    "react-scripts": "^4.0.1"
   },
   "scripts": {
     "server": "nodemon server.js",
@@ -22,5 +22,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

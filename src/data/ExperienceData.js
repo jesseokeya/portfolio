@@ -42,7 +42,7 @@ const ExperienceData = [
     duration: "September 2018 - October 2019"
   },
   {
-    jobTitle: "Software Developer (In Progress)",
+    jobTitle: "Software Developer",
     company: "Irdeto",
     jobDesc: [
       "Tested and verified Irdeto's solutions to ensure high quality standards in all Irdeto products",
@@ -58,6 +58,22 @@ const ExperienceData = [
       "Worked in cross functional teams that include professional services and technical operations as part of end to end product delivery and troubleshooting"
     ],
     duration: "January 2020 - August 2020"
+  },
+  {
+    jobTitle: "Software Developer",
+    company: "CloutJam",
+    jobDesc: [
+      "NodeJS / React / Redux stack",
+      "Built and scaled PostgreSQL databases and GraphQL APIs",
+      "Integrated and used 3rd party APIs - e.g. Stripe, Instagram, Auth0 etc.",
+      "Prototyped, developed and delivered new end-to-end features to web and mobile apps",
+      "Used Object-oriented development and design patterns",
+      "Participated in product scoping, code review, production planning, and estimating",
+      "Partnered with the CEO to ensure alignment between business strategy and product roadmap",
+      "Developed elegant and scalable backend infrastructure solutions",
+      "Guided the development team (local & remote) through ideation, problem-solving, and delivery of technical projects"
+    ],
+    duration: "August 2020 - Present"
   }
 ];
 
