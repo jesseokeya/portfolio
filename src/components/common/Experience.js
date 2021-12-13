@@ -33,7 +33,11 @@ class Experience extends Component {
             >
               <div className="resume-content mr-auto">
                 <h3 className="mb-0">{data.jobTitle}</h3>
-                <div className="subheading mb-3">{data.company}</div>
+                <div className="subheading mb-3">
+                  <a href={data.companyWebsite} target="_blank">
+                    {data.company}
+                  </a>
+                </div>
                 <ul className="list-group">
                   {this.displayDescriptions(data.jobDesc)}
                 </ul>
