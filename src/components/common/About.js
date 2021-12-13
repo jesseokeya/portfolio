@@ -74,7 +74,7 @@ class About extends Component {
                 <a
                   href="https://www.linkedin.com/in/jesse-okeya-45a38510a/"
                   target="_blank"
-                rel="noopener noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>

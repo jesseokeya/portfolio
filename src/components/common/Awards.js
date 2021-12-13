@@ -11,7 +11,7 @@ class Awards extends Component {
     };
   }
 
-  setCurrentAward = (currentAward) => this.setState({ currentAward })
+  setCurrentAward = (currentAward) => this.setState({ currentAward });
 
   displayAwards(awards) {
     return awards.map((award, index) => (
@@ -21,9 +21,10 @@ class Awards extends Component {
             src={award.src}
             className="img-fluid cursor-pointer"
             alt={award.alt}
-            onClick={(_) => this.setCurrentAward(award)}
+            onClick={() => this.setCurrentAward(award)}
             data-toggle="modal"
             data-target="#awardModal"
+            style={{ width: "100%", minHeight: "27rem" }}
           />
         </div>
       </div>
@@ -41,38 +42,8 @@ class Awards extends Component {
           <br />
           <div className="my-auto">
             <h2 className="mb-5">
-              {$(window).width() <= 375 ? (
-                <span>
-                  Awards &
-                  <br />
-                  <br />
-                  Certifications
-                </span>
-              ) : (
-                `Awards & Certifications`
-              )}
+              {$(window).width() <= 375 ? <span>Awards</span> : `Awards`}
             </h2>
-            <ul className="fa-ul mb-0">
-              <li>
-                <i className="fa-li fa fa-trophy text-warning"></i>
-                Google Analytics Certified Developer
-              </li>
-              <li>
-                <i className="fa-li fa fa-trophy text-warning"></i>
-                Mobile Web Specialist - Google Certification
-              </li>
-              <li>
-                <i className="fa-li fa fa-trophy text-warning"></i>
-                Go Programming Langunage - Udemy Certification
-              </li>
-              <li>
-                <i className="fa-li fa fa-trophy text-warning"></i>
-                <a href="https://github.com/orgs/QlikHackathon/people">
-                  Decode Ottawa - Team Qlik - Hackathon 2017
-                </a>
-              </li>
-            </ul>
-            <br />
             <div className="row">{this.displayAwards(awards)}</div>
           </div>
         </section>

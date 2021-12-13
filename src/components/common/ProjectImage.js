@@ -1,22 +1,22 @@
-import React, {Component} from 'react';
-import ReactGA from 'react-ga';
+import React, { Component } from "react";
+import ReactGA from "react-ga";
 
 class ProjectImage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: props.data
-    }
+      data: props.data,
+    };
   }
 
   render() {
-    const isMobile = window.innerWidth <= 800
-    const data = this.state.data
-    const defaultImageStyles = { 
-      height: !isMobile ? '55vh' : '80vh', 
-      width: '100%',
-      textAlign: 'center'
-    }
+    const isMobile = window.innerWidth <= 800;
+    const data = this.state.data;
+    const defaultImageStyles = {
+      height: !isMobile ? "55vh" : "80vh",
+      width: "100%",
+      textAlign: "center",
+    };
     return (
       <div className="col-sm-6 col-md-4 col-lg-3">
         <div
@@ -43,6 +43,4 @@ class ProjectImage extends Component {
   }
 }
 
-export {
-  ProjectImage
-}
+export { ProjectImage };
