@@ -18,7 +18,7 @@ class Education extends Component {
                 Computer Engineering Technology
               </div>
               <div>Computing Science</div>
-              <p>GPA: 3.94</p>
+              <p>GPA: 3.85</p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">January 2018 - May 2021</span>
@@ -30,7 +30,7 @@ class Education extends Component {
               <h3 className="mb-0">Carleton University</h3>
               <div className="subheading mb-3">Bachelor of Science</div>
               <div>Computer Science - Software Development Track</div>
-              <p>GPA: 3.23</p>
+              <p>GPA: 3.48</p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">January 2015 - May 2019</span>
