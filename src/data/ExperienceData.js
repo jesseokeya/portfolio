@@ -66,7 +66,7 @@ const ExperienceData = [
     duration: "August 2020 - January 2022",
   },
   {
-    jobTitle: "Full-Stack Engineer",
+    jobTitle: "Fullstack Software Engineer",
     company: "Properly",
     companyWebsite: "https://www.properly.ca/",
     jobDesc: [
