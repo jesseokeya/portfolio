@@ -1,6 +1,6 @@
 const ExperienceData = [
   {
-    jobTitle: "Software Developer Intern",
+    jobTitle: "Software Engineer Intern",
     company: "Qlik",
     companyWebsite: "https://www.qlik.com/",
     jobDesc: [
@@ -15,7 +15,7 @@ const ExperienceData = [
     duration: "May 2018 - September 2018",
   },
   {
-    jobTitle: "Software Developer",
+    jobTitle: "Software Engineer",
     companyWebsite: "https://www.linkedin.com/company/healthbrain/about/",
     company: "HealthBrain",
     jobDesc: [
@@ -30,7 +30,7 @@ const ExperienceData = [
     duration: "September 2018 - October 2019",
   },
   {
-    jobTitle: "Software Developer",
+    jobTitle: "Software Engineer",
     company: "Irdeto",
     companyWebsite: "https://www.irdeto.com/",
     jobDesc: [
@@ -49,7 +49,7 @@ const ExperienceData = [
     duration: "January 2020 - August 2020",
   },
   {
-    jobTitle: "Software Developer",
+    jobTitle: "Software Engineer",
     company: "CloutDesk",
     companyWebsite: "https://www.cloutdesk.com/",
     jobDesc: [
@@ -66,7 +66,7 @@ const ExperienceData = [
     duration: "August 2020 - January 2022",
   },
   {
-    jobTitle: "Intermediate Full-Stack Developer",
+    jobTitle: "Intermediate Full-Stack Engineer",
     company: "Properly",
     companyWebsite: "https://www.properly.ca/",
     jobDesc: [
@@ -81,6 +81,22 @@ const ExperienceData = [
       "Full implementation responsibilities that included design participation, code development, automated test development, deployment, and code maintenance",
     ],
     duration: "January 2022 - Present",
+  },
+  {
+    jobTitle: "Backend Software Engineer",
+    company: "Extend",
+    companyWebsite: "https://www.extend.com/",
+    jobDesc: [
+      "Collaborated on the design of and implement event-driven systems with AWS Serverless technologies",
+      "Collaborated with members of the engineering, product and design teams to deliver enhancements compatible with the existing platform",
+      "Delivered solutions that abstract the complexity of customers building integrations from various third party application platforms",
+      "Encouraged innovation and foster an environment of continuous improvement",
+      "Developed robust solutions to deliver key product features, such as APIs compatible with some of the world’s leading commerce solutions",
+      "Developed and maintained a suite of automated tests to ensure the quality of the product",
+      "Designed systems around microservice architecture patterns",
+      "Built event driven systems and worked with AWS Lambda, DynamoDB, SQS, SNS, API Gateway and other cloud services",
+    ],
+    duration: "December 2022 - Present",
   },
 ];
 

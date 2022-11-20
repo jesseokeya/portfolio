@@ -94,7 +94,7 @@ class Nav extends Component {
                 Projects
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a
                 onClick={this.closeNav}
                 className="nav-link js-scroll-trigger"
@@ -102,7 +102,7 @@ class Nav extends Component {
               >
                 Interests
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a
                 onClick={this.closeNav}

@@ -19,16 +19,7 @@ class About extends Component {
               Jesse {seperate}
               <span className="text-primary">Okeya</span>
             </h1>
-            <h2 className="proffession">
-              {$(window).width() <= 375 ? (
-                <div>
-                  Software
-                  <div className="developer">Developer</div>
-                </div>
-              ) : (
-                "Software Developer"
-              )}
-            </h2>
+            <h2 className="proffession">Software Developer</h2>
             <div className="subheading mb-5">
               <a className="map-link" onClick={this.showMap}>
                 933 Greenbriar Avenue
