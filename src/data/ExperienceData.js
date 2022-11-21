@@ -96,7 +96,7 @@ const ExperienceData = [
       "Designed systems around microservice architecture patterns",
       "Built event driven systems and worked with AWS Lambda, DynamoDB, SQS, SNS, API Gateway and other cloud services",
     ],
-    duration: "December 2022 - Present",
+    duration: "November 2022 - Present",
   },
 ];
 
