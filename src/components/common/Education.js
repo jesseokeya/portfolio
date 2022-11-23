@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from "react";
 
 class Education extends Component {
   render() {
@@ -21,7 +21,7 @@ class Education extends Component {
               <p>GPA: 3.85</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">January 2018 - May 2021</span>
+              <span className="text-primary">April 2017 - June 2019</span>
             </div>
           </div>
 
@@ -33,7 +33,7 @@ class Education extends Component {
               <p>GPA: 3.48</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">January 2015 - May 2019</span>
+              <span className="text-primary">January 2015 - April 2017</span>
             </div>
           </div>
 
@@ -53,6 +53,4 @@ class Education extends Component {
   }
 }
 
-export {
-  Education
-}
+export { Education };
